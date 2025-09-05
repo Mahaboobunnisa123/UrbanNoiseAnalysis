@@ -1,0 +1,70 @@
+# Enhanced Urban Noise Analysis - Essential Ignores Only
+
+# =============================================================================
+# LARGE DATA FILES
+# =============================================================================
+
+# Dataset files (large)
+data/
+datasets/
+esc50_dataset.csv
+*.zip
+*.tar.gz
+dataset.py
+sampleDataset.py
+
+# Configuration files
+Config/config.py
+Config/__pycache__/
+
+
+# Log files (can grow large)
+*.log
+logs
+
+
+
+# ML models (large binary files)
+models/
+*.pkl
+*.joblib
+*.h5
+*.pt
+
+# =============================================================================
+# PYTHON ESSENTIALS
+# =============================================================================
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+test_project.py
+urban_noise_analyzer.py
+
+# Virtual environments
+.env
+.venv
+venv/
+env/
+
+# =============================================================================
+# SYSTEM FILES
+# =============================================================================
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.log
+*.bak
+
+# =============================================================================
+# JUPYTER
+# =============================================================================
+.ipynb_checkpoints
+*.ipynb

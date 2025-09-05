@@ -1,0 +1,110 @@
+🎯 URBAN NOISE ANALYSIS DEMO
+1) Quick Test  2) Full Demo
+Enter choice (1/2): 1
+🧪 QUICK SETUP TEST
+====================
+✅ Config\config.py found
+✅ urban_noise_analyzer.py found
+✅ data\dataset.py found
+✅ sampleDataset.py found
+
+🎯 URBAN NOISE ANALYSIS DEMO
+1) Quick Test  2) Full Demo
+Enter choice (1/2): 2
+🧪 QUICK SETUP TEST
+====================
+✅ Config\config.py found
+✅ urban_noise_analyzer.py found
+✅ data\dataset.py found
+✅ sampleDataset.py found
+
+==================================================
+🏙️ URBAN NOISE POLLUTION & MENTAL HEALTH ANALYSIS
+=======================================================
+📊 Dataset: ESC-50 (2000 samples, 50 sound categories)
+🤖 Algorithm: Random Forest (Classifier + Regressor)
+🎯 Goal: Analyze noise impact on mental health
+=======================================================
+
+📥 STEP 1: Getting ESC-50 Dataset...
+✅ Downloaded 2000 rows × 7 columns
+✅ Dataset downloaded successfully!
+
+📊 STEP 2: Dataset Preview...
+Shape: (2000, 7)
+Columns: ['filename', 'fold', 'target', 'category', 'esc10', 'src_file', 'take']
+Categories: 50
+Sample:
+            filename  fold  target        category  esc10  src_file take
+0   1-100032-A-0.wav     1       0             dog   True    100032    A
+1  1-100038-A-14.wav     1      14  chirping_birds  False    100038    A
+2  1-100210-A-36.wav     1      36  vacuum_cleaner  False    100210    A
+3  1-100210-B-36.wav     1      36  vacuum_cleaner  False    100210    B
+4  1-101296-A-19.wav     1      19    thunderstorm  False    101296    A
+✅ Dataset preview complete!
+
+🤖 STEP 3: Running Complete Analysis...
+🚀 Random Forest Urban Noise Analysis
+🎯 ESC-50 Dataset → Random Forest → Health Impact Assessment
+======================================================================
+
+📊 Step 1: Loading ESC-50 dataset...
+📊 Loading ESC-50 dataset...
+✅ Loaded: 2000 samples, 50 categories
+
+🏥 Step 2: Generating health impact data...
+🏥 Generating health impact data...
+✅ Generated health data: 2000 samples
+
+🔧 Step 3: Preparing features for Random Forest...
+🔧 Preparing features...
+📊 Using 9 numerical features
+📊 Using 2 categorical features
+✅ Features prepared: 16 features
+📋 Feature names: ['noise_level_db', 'exposure_duration_hours', 'hour_of_day', 'day_of_week', 'hrv_score']...
+
+🌲 Step 4: Training Random Forest Classifier...
+🌲 Training Random Forest Classifier...
+🎯 Classification Results:
+   Training Accuracy: 1.0000
+   Test Accuracy: 0.9675
+   CV Accuracy: 0.9415 ± 0.0180
+   Overfitting Check: 0.0325
+✅ Random Forest Classifier saved!
+
+🌲 Step 5: Training Random Forest Regressor...
+🌲 Training Random Forest Regressor...
+🎯 Regression Results:
+   Training R²: 0.9960
+   Test R²: 0.9442
+   Test MAE: 2.28 points
+   Test RMSE: 2.85 points
+   Overfitting Check: 0.0518
+✅ Random Forest Regressor saved!
+
+📊 Step 6: Creating clean dashboard...
+📊 Creating clean dashboard...
+✅ Clean dashboard saved!
+
+💾 Step 7: Saving results...
+
+======================================================================
+🎯 RANDOM FOREST ANALYSIS COMPLETE!
+======================================================================
+✅ Algorithm: Random Forest (Classifier + Regressor)
+✅ No Overfitting: Built-in protection
+✅ High Accuracy: Optimized hyperparameters
+✅ Clean Dashboard: Professional visualization
+✅ Windows Compatible: No multiprocessing issues
+
+📈 Final Results:
+   • Classification Accuracy: 96.8%
+   • Health Prediction R²: 0.944
+   • Health Prediction MAE: 2.3 points
+
+🏆 Random Forest Urban Noise Analysis completed successfully!
+
+🎉 ANALYSIS COMPLETE!
+📊 Classification Accuracy: 96.8%
+📊 Health Prediction R²: 0.944
+📊 Prediction MAE: ±2.3 points
