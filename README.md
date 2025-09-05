@@ -16,7 +16,7 @@ Urban environments are increasingly plagued by noise pollution impacting mental 
 - **Platform Compatible:** Fully operational across Windows, macOS, and Linux with simplified setup instructions.
 
 ## Architecture Diagram
-![Architecture Diagram](./docs/architecture-diagram.png)
+![Architecture diagram](./docs/architecture-diagram.png)
 *Note: Architecture highlights data flow starting from raw ESC-50 loading → feature engineering → health impact modeling → Random Forest classification/regression → visualization & reporting.*
 
 ## Project Structure
@@ -83,7 +83,7 @@ This project effectively bridges environmental sound classification and public h
 - **Cross-Dataset Generalization:** Adapting the pipeline for other sound pollution datasets and multilingual environments.
 
 ## Disclaimer
-*The source code of this project is not publicly shared at this time due to confidentiality agreements. Interested parties may contact the author via email for access requests and collaboration inquiries.*
+*The source code of this project is not publicly shared at this time due to confidentiality agreements rather demo file is shared to get an idea for implementation. Interested parties may contact the author via email for access requests and collaboration inquiries.*
 
 ## License
 This project is licensed under the MIT License — see the [LICENSE](./LICENSE) file for details.
