@@ -16,7 +16,7 @@ Urban environments are increasingly plagued by noise pollution impacting mental 
 - **Platform Compatible:** Fully operational across Windows, macOS, and Linux with simplified setup instructions.
 
 ## Architecture Diagram
-![Architecture diagram](./docs/architecture-diagram.png)
+![Architecture diagram](./docs/System_Architecture.png)
 *Note: Architecture highlights data flow starting from raw ESC-50 loading → feature engineering → health impact modeling → Random Forest classification/regression → visualization & reporting.*
 
 ## Project Structure
