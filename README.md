@@ -19,7 +19,9 @@ Urban environments are increasingly plagued by noise pollution impacting mental 
 ![Architecture diagram](./Architecture_diagram)
 *Note: Architecture highlights data flow starting from raw ESC-50 loading → feature engineering → health impact modeling → Random Forest classification/regression → visualization & reporting.*
 
+
 ## Project Structure
+``` text 
 ESC-50 Urban Noise Analysis/
 ├── Config/
 │ └── config.py # Centralized configuration & constants
@@ -46,6 +48,7 @@ ESC-50 Urban Noise Analysis/
 ├── .gitignore # Git ignore specification
 ├── requirements.txt # Python dependencies list
 └── README.md # Project documentation & overview
+```
 
 ## Project Initialization
 ### Step 1: Dataset Download
